@@ -58,3 +58,7 @@ Some of the features that we are hoping to incorporate include
 - Allow ML and DL models to be run
 - Dynamic device registration
 - Dedicated Front End platform for visualizations
+
+
+Video Link: 
+https://www.youtube.com/watch?v=pe0GE5RNiGM&feature=youtu.be

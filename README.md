@@ -62,3 +62,5 @@ Some of the features that we are hoping to incorporate include
 
 Video Link: 
 https://www.youtube.com/watch?v=pe0GE5RNiGM&feature=youtu.be
+
+[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")

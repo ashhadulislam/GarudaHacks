@@ -13,19 +13,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  
   
 </head>
 <body>
+	
+	<div class="container d-flex align-items-center">
+		<div class="container-fluid">			
 
+		<section id="hero" class="d-flex align-items-center" style="background: url('/static/imgs/hero-bg.jpg') top center">
+			<div class="container">
+			  <h1>Welcome to Medical App</h1>
+			  <h2>Set your recipe according to your device</h2>
+			  <a href="#dropd" class="btn-get-started scrollto">Get Started</a>
+			</div>
+		  </section>
 
-
-	<nav class="navbar navbar-light bg-light">
-	  <span class="navbar-text">
-	    Set your recipe according to your device
-	  </span>
-	</nav>
-
+  <div>
+  <section id="dropd" class="dropd">
 	<div class="container-fluid">
 	  <form action="/addrule" method="post" >
 
@@ -74,7 +81,23 @@
 		</form>
 	</div>
 
+	<div class="container-fluid">
+		<div class="form-group">			    
+			    <button type="button" class="btn btn-secondary">UploadModel</button>
+		  </div>
+	</div>
+
+
+
+  </section>
+</div>
+
+
+</body>
+
+
 
 	
 
-</body>
+	
+

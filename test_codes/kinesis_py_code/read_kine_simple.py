@@ -7,10 +7,9 @@ shard_it = kinesis.get_shard_iterator("end-stream", shard_id, "LATEST")["ShardIt
 while 1==1:
     out = kinesis.get_records(shard_it, limit=1)
     shard_it = out["NextShardIterator"]
-    print(out)
+    # print(out)
     if len(out["Records"])>0:
     	print(out["Records"][0]["Data"])
-    print(shard_it)    
     time.sleep(0.3)
 
 
